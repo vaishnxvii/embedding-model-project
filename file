@@ -1,0 +1,1 @@
+curl.exe -X POST "https://embedding-api-auso.onrender.com/embed" -H "Content-Type: application/json" -H "X-API-Key: LB6ujRBJDy/CwWQ9pZ+BdiFcDb7LTT5ypFV4hvLA2Nw=" -d "{""text"":""hello world""}"

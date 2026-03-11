@@ -39,7 +39,7 @@ embedding-api/
    git init
    git add .
    git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/embedding-api.git
+   git remote add origin https://github.com/vaishnxvii/embedding-model-project
    git push -u origin main
    ```
 
@@ -50,15 +50,11 @@ embedding-api/
    - Select **Docker** as the environment
    - Choose the **Free** plan
 
-3. **Set Environment Variable**
-   - Under **Environment**, add:
-     - Key: `API_KEY`
-     - Value: any secure random string (e.g. generate one at [randomkeygen.com](https://randomkeygen.com))
 
-4. **Deploy**
+3. **Deploy**
    - Click **Create Web Service**
    - Render will build the Docker image and deploy (~5–10 minutes first time)
-   - Your public URL will be: `https://embedding-api.onrender.com`
+   - Your public URL will be: `https://embedding-api-auso.onrender.com`
 
 ---
 
@@ -66,7 +62,7 @@ embedding-api/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/embedding-api.git
+git clone https://github.com/vaishnxvii/embedding-model-project
 cd embedding-api
 
 # 2. Set up environment
