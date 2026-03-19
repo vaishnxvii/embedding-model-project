@@ -54,7 +54,7 @@ embedding-api/
 3. **Deploy**
    - Click **Create Web Service**
    - Render will build the Docker image and deploy (~5–10 minutes first time)
-   - Your public URL will be: `https://embedding-api-auso.onrender.com`
+   - Public URL will be: `https://embedding-api-auso.onrender.com`
 
 ---
 
